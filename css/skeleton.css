@@ -417,7 +417,32 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
-/* Nav
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* Nav –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-nav{ position:fixed; width:220px;}
+#navcontainer ul {
+  padding: .2em 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #000;
+  color: #FFF;
+  width: 100%;
+  font: normal 90% arial, #helvetica, sans-serif;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+    text-decoration: none;
+    background-color: #000;
+    color: #FFF;
+    padding: .2em 1em;
+    border-right: 1px solid #fff;
+ }
+
+li a:hover {
+  background-color: #ffff00;
+  color: #000;
+}
