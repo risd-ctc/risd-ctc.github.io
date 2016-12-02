@@ -23,6 +23,7 @@
 - Utilities
 - Clearing
 - Media Queries
+- additions to CSS (not part of Skeleton)
 */
 
 
@@ -288,9 +289,9 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: circle inside; }
+  list-style: square; }
 ol {
-  list-style: decimal inside; }
+  list-style: square; }
 ol, ul {
   padding-left: 0;
   margin-top: 0; }
@@ -417,7 +418,10 @@ there.
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
-  /* Nav –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Non-Skeleton below –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* Nav –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 ul.navbar {
   padding: .2em 0;
@@ -427,7 +431,7 @@ ul.navbar {
   color: #FFF;
   width: 100%;
   font: normal 90% arial, #helvetica, sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 li.navbar {

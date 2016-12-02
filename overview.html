@@ -9,6 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,15 +22,45 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <style>
+    html, body {
+      height: 100%;
+    }
+
+    .table-container {
+      display: table;
+      height: 100%;
+      width: 100%;
+    }
+
+    .table-block {
+      display: table-row;
+      height: 1px;
+    }
+
+    .footer-push {
+      height: auto;
+    }
+
+    #footer {
+      /* Placeholder footer styles */
+      text-align: left;
+      padding: 0em 0em 4em 0em;
+      font-size: 1.2rem;
+    }
+
+  </style>
+
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.ico">
+  <link rel="icon" type="image/ico" href="images/favicon.ico">
 
 </head>
 <body>
 
-  <!-- Primary Page Layout
+  <!--Navigation button-primary
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div>
@@ -40,26 +71,46 @@
   </ul>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns" style="margin-top: 5%">
-        <h5>Overview (in progress)</h5>
-        <p>Coming soon...</p>
+  <div class="table-container">
+    <div class="table-block footer-push">
 
-        <h5>Credits</h5>
-        <p>Using a 15-credit minimum, students typically take five, 3-credit courses comprised of:
-        <ul>
-          <li>3-credit required
-        studio #1: <b>introductory course</b> (usually taken sophomore or junior
-        year)</li>
-        <li>3-credit required studio #2: <b>advanced course</b> with large-scale project (usually taken senior year)</li>
-        <li>9 credits, generally as three electives from across the college (taken any year). These courses can be selected from CTC-sponsored or from approved Departmental offerings. 6-credit courses and 1-credit workshops also qualify when offered.</li>
-        </ul>
+      <!-- Primary Page Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns" style="margin-top: 5%">
+      <h5>Overview (in progress)</h5>
+      <p>Coming soon...</p>
 
-</p>
-      </div>
+      <h5>Credits</h5>
+      <p>Using a 15-credit minimum, students typically take five, 3-credit courses comprised of:
+      <ul>
+        <li>3-credit required
+      studio #1: <b>introductory course</b> (usually taken sophomore or junior
+      year)</li>
+      <li>3-credit required studio #2: <b>advanced course</b> with large-scale project (usually taken senior year)</li>
+      <li>9 credits, generally as three electives from across the college (taken any year). These courses can be selected from CTC-sponsored or from approved Departmental offerings. 6-credit courses and 1-credit workshops also qualify when offered.</li>
+      </ul>
+    </p>
     </div>
+        </div>
+      </div>  <!-- end primary div.container -->
+    </div> <!-- end primary div.table-block -->
+
+
+    <div class="table-block">
+      <!-- Page Footer Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <footer id="footer" class="twelve columns">
+          Rhode Island School of Design: Computation, Technology, and Culture
+        </footer>
+      </div> <!-- end footer div.container -->
+    </div>  <!-- end footer div.table-block -->
   </div>
+
+
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

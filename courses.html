@@ -9,6 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,15 +22,45 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <style>
+    html, body {
+      height: 100%;
+    }
+
+    .table-container {
+      display: table;
+      height: 100%;
+      width: 100%;
+    }
+
+    .table-block {
+      display: table-row;
+      height: 1px;
+    }
+
+    .footer-push {
+      height: auto;
+    }
+
+    #footer {
+      /* Placeholder footer styles */
+      text-align: left;
+      padding: 0em 0em 4em 0em;
+      font-size: 1.2rem;
+    }
+
+  </style>
+
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.ico">
+  <link rel="icon" type="image/ico" href="images/favicon.ico">
 
 </head>
 <body>
 
-  <!-- Primary Page Layout
+  <!--Navigation button-primary
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div>
@@ -40,29 +71,44 @@
   </ul>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns" style="margin-top: 5%">
-        <h5>Courses (in progress)</h5>
-        <p><ul>
-          <li>Introduction to Computation</li>
-          <li>Computation, Technology, and Culture: Research Studio</li>
-          <li>Ambient Interfaces: Activated Objects</li>
-          <li>Argentina: Hi/Lo Tech</li>
-          <li>Art, Life, and the Internet</li>
-          <li>Programming Sound: Performance Systems</li>
-          <li>Spatial Audio: Envelopment and Immersion</li>
-        </ul>
+  <div class="table-container">
+    <div class="table-block footer-push">
+
+      <!-- Primary Page Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns" style="margin-top: 5%">
+          <h5>Courses (in progress)</h5>
+          <p><ul>
+            <li>Introduction to Computation</li>
+            <li>Computation, Technology, and Culture: Research Studio</li>
+            <li>Ambient Interfaces: Activated Objects</li>
+            <li>Argentina: Hi/Lo Tech</li>
+            <li>Art, Life, and the Internet</li>
+            <li>Programming Sound: Performance Systems</li>
+            <li>Spatial Audio: Envelopment and Immersion</li>
+          </ul>
+          </p>
+        </div>
+        </div>
+      </div>  <!-- end primary div.container -->
+    </div> <!-- end primary div.table-block -->
 
 
-
-
-
-        </p>
-
-      </div>
-    </div>
+    <div class="table-block">
+      <!-- Page Footer Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <footer id="footer" class="twelve columns">
+          Rhode Island School of Design: Computation, Technology, and Culture
+        </footer>
+      </div> <!-- end footer div.container -->
+    </div>  <!-- end footer div.table-block -->
   </div>
+
+
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
