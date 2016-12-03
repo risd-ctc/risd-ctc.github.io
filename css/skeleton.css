@@ -289,11 +289,11 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  list-style: square; }
+  list-style: disc; }
 ol {
-  list-style: square; }
+  list-style: circle; }
 ol, ul {
-  padding-left: 0;
+  padding-left: 2em;
   margin-top: 0; }
 ul ul,
 ul ol,
